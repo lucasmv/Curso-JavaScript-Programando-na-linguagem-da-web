@@ -78,6 +78,5 @@ function exibeMensagensDeErro(erros) {
 }
 
 function limpaErros(){
-    var ul = document.querySelector('#mensagens-erro');
-    ul.innerHTML = '';
+    document.querySelector('#mensagens-erro').innerHTML = '';
 }
