@@ -56,7 +56,6 @@ function montaTd(dado, classe) {
 }
 
 function validaPaciente(paciente) {
-
     var erros = [];
 
     if (paciente.nome.length === 0) erros.push("O nome não pode ser em branco");
